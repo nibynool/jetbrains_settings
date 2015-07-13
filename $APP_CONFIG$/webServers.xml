@@ -1,0 +1,22 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f14a16d2-75a9-4c9f-bbf5-4c30f66160b6" name="LocalHost" url="http://localhost/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="d9f82787-e21a-4608-933b-773d382b22c1" name="docs.alphageek.local" url="http://docs.alphageek.local">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="704da90f-ce91-4064-8942-0729a6a33631" name="Local Test Server" url="http://mango.testbed.xyz">
+        <fileTransfer host="mango.testbed.xyz" port="22" rootFolder="/usr/share/nginx" accessType="SFTP" password="df92dfc0dfc4dfdfdfc9dfc8dfc9dfcf" username="ubuntu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="df8d4fcd-c884-416a-8599-1ad984d5968a" name="DEV" url="http://virtualbox.testbed.xyz">
+        <fileTransfer mountedRoot="W:\" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</application>
