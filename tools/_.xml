@@ -1,9 +1,0 @@
-<toolSet name="External Tools">
-  <tool name="Perl Compiler" description="Perl compilation check script" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
-    <exec>
-      <option name="COMMAND" value="perl" />
-      <option name="PARAMETERS" value="-I&quot;/Users/michael/Documents/API/v1&quot; -I&quot;/Users/michael/Documents/Systems/IPE Lib/perl&quot; -c $FileName$ " />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
-</toolSet>
