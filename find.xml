@@ -1,7 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="File '/Users/macbookpro/Documents/www/src/Alphageek/AssetBundle/EntityTrait/HasAssetTrait.php'" />
     <option name="defaultScopeName" value="File '/Users/macbookpro/Documents/www/src/Alphageek/AssetBundle/EntityTrait/HasAssetTrait.php'" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="File '/Users/macbookpro/Documents/www/src/Alphageek/AssetBundle/EntityTrait/HasAssetTrait.php'" />
   </component>
 </application>
