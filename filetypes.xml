@@ -2,8 +2,9 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping ext="ctp" type="PHP" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="*.xml.dist" type="XML" />
     </extensionMap>
   </component>
