@@ -1,5 +1,6 @@
 <application>
   <component name="ExternalResourceManagerImpl">
     <resource url="http://schema.phpunit.de/4.8/phpunit.xsd" location="$USER_HOME$/Library/Caches/PhpStorm2016.2/extResources/e374a285_phpunit.xsd" />
+    <resource url="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" location="$USER_HOME$/Library/Caches/PhpStorm2016.2/extResources/2889bd79_svg11.dtd" />
   </component>
 </application>
