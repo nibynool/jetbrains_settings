@@ -6,6 +6,7 @@
       <mapping pattern="0minutely" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="apache_workers_cloudwatch" type="PLAIN_TEXT" />
+      <mapping pattern="ram_cloudwatch" type="PLAIN_TEXT" />
       <mapping pattern="newrelic_switch" type="PLAIN_TEXT" />
       <mapping pattern="0hourly" type="PLAIN_TEXT" />
       <mapping pattern="master_key" type="PLAIN_TEXT" />
