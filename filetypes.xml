@@ -20,6 +20,7 @@
       <mapping pattern="logrotate" type="PLAIN_TEXT" />
       <mapping ext="com" type="PLAIN_TEXT" />
       <mapping ext="private" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping pattern="*.xml.dist" type="XML" />
     </extensionMap>
