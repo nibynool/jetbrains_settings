@@ -14,7 +14,7 @@
       <interpreter home="/usr/local/php5-5.5.37-20160626-130915/bin/php" id="f61cd27c-f008-436a-826d-23f1b7a0d628" name="PHP 5.5" debugger_id="php.debugger.XDebug" />
       <interpreter home="/opt/local/bin/php53" id="3afaf1de-0c82-459c-a869-cfacab885b82" name="PHP 5.3" debugger_id="php.debugger.XDebug" />
       <interpreter home="/opt/local/bin/php54" id="856cd8a1-4c36-465a-823d-0e65de006a0b" name="PHP 5.4" debugger_id="php.debugger.XDebug" />
-      <interpreter home="/opt/local/bin/php56" id="c36bccc9-4b72-47a2-88d7-590d8494e5f4" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/opt/php56/bin/php" id="c36bccc9-4b72-47a2-88d7-590d8494e5f4" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
       <interpreter home="/opt/local/bin/php70" id="aba039af-23a2-415b-8d5a-7e165ac59bd2" name="PHP 7.0" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
@@ -498,48 +498,14 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 5.6">
-        <phpinfo binary_type="PHP" php_cli="/opt/local/bin/php56" path_separator=":" remote_host="127.0.0.1" version="5.6.23">
-          <additional_php_ini>/opt/local/var/db/php56/APCu.ini, /opt/local/var/db/php56/FreeImage.ini, /opt/local/var/db/php56/Judy.ini, /opt/local/var/db/php56/SPL_Types.ini, /opt/local/var/db/php56/Twig.ini, /opt/local/var/db/php56/amf.ini, /opt/local/var/db/php56/amqp.ini, /opt/local/var/db/php56/bbcode.ini, /opt/local/var/db/php56/big_int.ini, /opt/local/var/db/php56/cairo.ini, /opt/local/var/db/php56/calendar.ini, /opt/local/var/db/php56/curl.ini, /opt/local/var/db/php56/dba.ini, /opt/local/var/db/php56/dbase.ini, /opt/local/var/db/php56/enchant.ini, /opt/local/var/db/php56/esmtp.ini, /opt/local/var/db/php56/event.ini, /opt/local/var/db/php56/excel.ini, /opt/local/var/db/php56/exif.ini, /opt/local/var/db/php56/ftp.ini, /opt/local/var/db/php56/gd.ini, /opt/local/var/db/php56/gdchart.ini, /opt/local/var/db/php56/gearman.ini, /opt/local/var/db/php56/geoip.ini, /opt/local/var/db/php56/gettext.ini, /opt/local/var/db/php56/gmagick.ini, /opt/local/var/db/php56/gmp.ini, /opt/local/var/db/php56/html_parse.ini, /opt/local/var/db/php56/htscanner.ini, /opt/local/var/db/php56/iconv.ini, /opt/local/var/db/php56/igbinary.ini, /opt/local/var/db/php56/imagick.ini, /opt/local/var/db/php56/imap.ini, /opt/local/var/db/php56/imlib2.ini, /opt/local/var/db/php56/intl.ini, /opt/local/var/db/php56/ipc.ini, /opt/local/var/db/php56/jsmin.ini, /opt/local/var/db/php56/ldap.ini, /opt/local/var/db/php56/libev.ini, /opt/local/var/db/php56/libevent.ini, /opt/local/var/db/php56/lzf.ini, /opt/local/var/db/php56/magickwand.ini, /opt/local/var/db/php56/mailparse.ini, /opt/local/var/db/php56/markdown.ini, /opt/local/var/db/php56/mbstring.ini, /opt/local/var/db/php56/mcrypt.ini, /opt/local/var/db/php56/memcached.ini, /opt/local/var/db/php56/ming.ini, /opt/local/var/db/php56/mongo.ini, /opt/local/var/db/php56/mssql.ini, /opt/local/var/db/php56/mysql.ini, /opt/local/var/db/php56/oauth.ini, /opt/local/var/db/php56/odbc.ini, /opt/local/var/db/php56/openssl.ini, /opt/local/var/db/php56/pcntl.ini, /opt/local/var/db/php56/pdflib.ini, /opt/local/var/db/php56/pear.ini, /opt/local/var/db/php56/peb.ini, /opt/local/var/db/php56/phalcon.ini, /opt/local/var/db/php56/pop3.ini, /opt/local/var/db/php56/posix.ini, /opt/local/var/db/php56/postgresql.ini, /opt/local/var/db/php56/propro.ini, /opt/local/var/db/php56/pspell.ini, /opt/local/var/db/php56/raphf.ini, /opt/local/var/db/php56/rar.ini, /opt/local/var/db/php56/redis.ini, /opt/local/var/db/php56/rrd.ini, /opt/local/var/db/php56/scrypt.ini, /opt/local/var/db/php56/snmp.ini, /opt/local/var/db/php56/soap.ini, /opt/local/var/db/php56/sockets.ini, /opt/local/var/db/php56/solr.ini, /opt/local/var/db/php56/sphinx.ini, /opt/local/var/db/php56/sqlite.ini, /opt/local/var/db/php56/ssh2.ini, /opt/local/var/db/php56/stomp.ini, /opt/local/var/db/php56/suhosin.ini, /opt/local/var/db/php56/svm.ini, /opt/local/var/db/php56/svn.ini, /opt/local/var/db/php56/syck.ini, /opt/local/var/db/php56/tidy.ini, /opt/local/var/db/php56/timezonedb.ini, /opt/local/var/db/php56/uploadprogress.ini, /opt/local/var/db/php56/uuid.ini, /opt/local/var/db/php56/vld.ini, /opt/local/var/db/php56/wddx.ini, /opt/local/var/db/php56/xdebug.ini, /opt/local/var/db/php56/xhprof.ini, /opt/local/var/db/php56/xmlrpc.ini, /opt/local/var/db/php56/xrange.ini, /opt/local/var/db/php56/xsl.ini, /opt/local/var/db/php56/yaml.ini, /opt/local/var/db/php56/yaz.ini, /opt/local/var/db/php56/zhttp2.ini, /opt/local/var/db/php56/zip.ini</additional_php_ini>
-          <configuration_file>/opt/local/etc/php56/php.ini</configuration_file>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php56/5.6.26_3/bin/php-cgi" php_cli="/usr/local/Cellar/php56/5.6.26_3/bin/php" path_separator=":" version="5.6.26">
+          <additional_php_ini>/usr/local/etc/php/5.6/conf.d/ext-intl.ini, /usr/local/etc/php/5.6/conf.d/ext-mcrypt.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/5.6/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
             <configuration_option name="allow_url_include" value="" />
             <configuration_option name="always_populate_raw_post_data" value="0" />
-            <configuration_option name="amqp.auto_ack" value="0" />
-            <configuration_option name="amqp.channel_max" value="256" />
-            <configuration_option name="amqp.connect_timeout" value="0" />
-            <configuration_option name="amqp.frame_max" value="131072" />
-            <configuration_option name="amqp.heartbeat" value="0" />
-            <configuration_option name="amqp.host" value="localhost" />
-            <configuration_option name="amqp.login" value="guest" />
-            <configuration_option name="amqp.password" value="guest" />
-            <configuration_option name="amqp.port" value="5672" />
-            <configuration_option name="amqp.prefetch_count" value="3" />
-            <configuration_option name="amqp.read_timeout" value="0" />
-            <configuration_option name="amqp.timeout" value="" />
-            <configuration_option name="amqp.vhost" value="/" />
-            <configuration_option name="amqp.write_timeout" value="0" />
-            <configuration_option name="apc.coredump_unmap" value="0" />
-            <configuration_option name="apc.enable_cli" value="0" />
-            <configuration_option name="apc.enabled" value="1" />
-            <configuration_option name="apc.entries_hint" value="4096" />
-            <configuration_option name="apc.gc_ttl" value="3600" />
-            <configuration_option name="apc.mmap_file_mask" value="" />
-            <configuration_option name="apc.preload_path" value="" />
-            <configuration_option name="apc.rfc1867" value="0" />
-            <configuration_option name="apc.rfc1867_freq" value="0" />
-            <configuration_option name="apc.rfc1867_name" value="APC_UPLOAD_PROGRESS" />
-            <configuration_option name="apc.rfc1867_prefix" value="upload_" />
-            <configuration_option name="apc.rfc1867_ttl" value="3600" />
-            <configuration_option name="apc.serializer" value="php" />
-            <configuration_option name="apc.shm_segments" value="1" />
-            <configuration_option name="apc.shm_size" value="32M" />
-            <configuration_option name="apc.slam_defense" value="1" />
-            <configuration_option name="apc.smart" value="0" />
-            <configuration_option name="apc.ttl" value="0" />
-            <configuration_option name="apc.use_request_time" value="1" />
-            <configuration_option name="apc.writable" value="/tmp" />
             <configuration_option name="arg_separator.input" value="&amp;" />
             <configuration_option name="arg_separator.output" value="&amp;" />
             <configuration_option name="asp_tags" value="" />
@@ -551,17 +517,17 @@
             <configuration_option name="auto_append_file" value="" />
             <configuration_option name="auto_detect_line_endings" value="0" />
             <configuration_option name="auto_globals_jit" value="1" />
-            <configuration_option name="auto_prepend_file" value="/opt/local/var/db/php56/pear/pear-ini.php" />
+            <configuration_option name="auto_prepend_file" value="" />
             <configuration_option name="bcmath.scale" value="0" />
             <configuration_option name="browscap" value="" />
             <configuration_option name="cli.pager" value="" />
             <configuration_option name="cli.prompt" value="\b \&gt; " />
             <configuration_option name="curl.cainfo" value="" />
-            <configuration_option name="date.default_latitude" value="31.7667" />
-            <configuration_option name="date.default_longitude" value="35.2333" />
+            <configuration_option name="date.default_latitude" value="-37.8288071" />
+            <configuration_option name="date.default_longitude" value="144.99255429999994" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
             <configuration_option name="date.sunset_zenith" value="90.583333" />
-            <configuration_option name="date.timezone" value="" />
+            <configuration_option name="date.timezone" value="Australia/Melbourne" />
             <configuration_option name="dba.default_handler" value="flatfile" />
             <configuration_option name="default_charset" value="UTF-8" />
             <configuration_option name="default_mimetype" value="text/html" />
@@ -579,9 +545,6 @@
             <configuration_option name="error_log" value="" />
             <configuration_option name="error_prepend_string" value="" />
             <configuration_option name="error_reporting" value="32767" />
-            <configuration_option name="excel.license_key" value="" />
-            <configuration_option name="excel.license_name" value="" />
-            <configuration_option name="excel.skip_empty" value="0" />
             <configuration_option name="exif.decode_jis_intel" value="JIS" />
             <configuration_option name="exif.decode_jis_motorola" value="JIS" />
             <configuration_option name="exif.decode_unicode_intel" value="UCS-2LE" />
@@ -590,37 +553,24 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/opt/local/lib/php56/extensions/no-debug-non-zts-20131226" />
+            <configuration_option name="extension_dir" value="/usr/local/Cellar/php56/5.6.26_3/lib/php/extensions/no-debug-non-zts-20131226" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
             <configuration_option name="from" value="" />
             <configuration_option name="gd.jpeg_ignore_warning" value="0" />
-            <configuration_option name="geoip.custom_directory" value="" />
             <configuration_option name="highlight.comment" value="#FF8000" />
             <configuration_option name="highlight.default" value="#0000BB" />
             <configuration_option name="highlight.html" value="#000000" />
             <configuration_option name="highlight.keyword" value="#007700" />
             <configuration_option name="highlight.string" value="#DD0000" />
             <configuration_option name="html_errors" value="0" />
-            <configuration_option name="htscanner.config_file" value=".htaccess" />
-            <configuration_option name="htscanner.default_docroot" value="/" />
-            <configuration_option name="htscanner.default_ttl" value="300" />
-            <configuration_option name="htscanner.stop_on_error" value="0" />
-            <configuration_option name="htscanner.verbose" value="0" />
-            <configuration_option name="http.etag.mode" value="crc32b" />
             <configuration_option name="iconv.input_encoding" value="" />
             <configuration_option name="iconv.internal_encoding" value="" />
             <configuration_option name="iconv.output_encoding" value="" />
-            <configuration_option name="igbinary.compact_strings" value="1" />
             <configuration_option name="ignore_repeated_errors" value="" />
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
-            <configuration_option name="imagick.locale_fix" value="0" />
-            <configuration_option name="imagick.progress_monitor" value="0" />
-            <configuration_option name="imagick.skip_version_check" value="0" />
-            <configuration_option name="imlib2.font_cache_max_size" value="524288" />
-            <configuration_option name="imlib2.font_path" value="/usr/share/php/fonts/" />
             <configuration_option name="implicit_flush" value="1" />
             <configuration_option name="include_path" value=".:" />
             <configuration_option name="input_encoding" value="" />
@@ -628,14 +578,12 @@
             <configuration_option name="intl.default_locale" value="" />
             <configuration_option name="intl.error_level" value="0" />
             <configuration_option name="intl.use_exceptions" value="0" />
-            <configuration_option name="judy.string.maxlength" value="65536" />
             <configuration_option name="ldap.max_links" value="-1" />
             <configuration_option name="log_errors" value="1" />
             <configuration_option name="log_errors_max_len" value="1024" />
             <configuration_option name="mail.add_x_header" value="1" />
             <configuration_option name="mail.force_extra_parameters" value="" />
             <configuration_option name="mail.log" value="" />
-            <configuration_option name="mailparse.def_charset" value="us-ascii" />
             <configuration_option name="max_execution_time" value="0" />
             <configuration_option name="max_file_uploads" value="20" />
             <configuration_option name="max_input_nesting_level" value="64" />
@@ -653,47 +601,14 @@
             <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
-            <configuration_option name="memcached.compression_factor" value="1.3" />
-            <configuration_option name="memcached.compression_threshold" value="2000" />
-            <configuration_option name="memcached.compression_type" value="fastlz" />
-            <configuration_option name="memcached.serializer" value="igbinary" />
-            <configuration_option name="memcached.sess_binary" value="0" />
-            <configuration_option name="memcached.sess_lock_wait" value="150000" />
-            <configuration_option name="memcached.sess_locking" value="1" />
-            <configuration_option name="memcached.sess_prefix" value="memc.sess.key." />
             <configuration_option name="memory_limit" value="128M" />
-            <configuration_option name="mongo.allow_empty_keys" value="0" />
-            <configuration_option name="mongo.chunk_size" value="261120" />
-            <configuration_option name="mongo.cmd" value="$" />
-            <configuration_option name="mongo.default_host" value="localhost" />
-            <configuration_option name="mongo.default_port" value="27017" />
-            <configuration_option name="mongo.is_master_interval" value="15" />
-            <configuration_option name="mongo.long_as_object" value="0" />
-            <configuration_option name="mongo.native_long" value="1" />
-            <configuration_option name="mongo.ping_interval" value="5" />
-            <configuration_option name="mssql.allow_persistent" value="1" />
-            <configuration_option name="mssql.batchsize" value="0" />
-            <configuration_option name="mssql.charset" value="" />
-            <configuration_option name="mssql.compatability_mode" value="0" />
-            <configuration_option name="mssql.compatibility_mode" value="" />
-            <configuration_option name="mssql.connect_timeout" value="5" />
-            <configuration_option name="mssql.datetimeconvert" value="1" />
-            <configuration_option name="mssql.max_links" value="-1" />
-            <configuration_option name="mssql.max_persistent" value="-1" />
-            <configuration_option name="mssql.max_procs" value="-1" />
-            <configuration_option name="mssql.min_error_severity" value="10" />
-            <configuration_option name="mssql.min_message_severity" value="10" />
-            <configuration_option name="mssql.secure_connection" value="" />
-            <configuration_option name="mssql.textlimit" value="-1" />
-            <configuration_option name="mssql.textsize" value="-1" />
-            <configuration_option name="mssql.timeout" value="60" />
             <configuration_option name="mysql.allow_local_infile" value="1" />
             <configuration_option name="mysql.allow_persistent" value="1" />
             <configuration_option name="mysql.connect_timeout" value="60" />
             <configuration_option name="mysql.default_host" value="" />
             <configuration_option name="mysql.default_password" value="" />
             <configuration_option name="mysql.default_port" value="" />
-            <configuration_option name="mysql.default_socket" value="" />
+            <configuration_option name="mysql.default_socket" value="/tmp/mysql.sock" />
             <configuration_option name="mysql.default_user" value="" />
             <configuration_option name="mysql.max_links" value="-1" />
             <configuration_option name="mysql.max_persistent" value="-1" />
@@ -703,7 +618,7 @@
             <configuration_option name="mysqli.default_host" value="" />
             <configuration_option name="mysqli.default_port" value="3306" />
             <configuration_option name="mysqli.default_pw" value="" />
-            <configuration_option name="mysqli.default_socket" value="" />
+            <configuration_option name="mysqli.default_socket" value="/tmp/mysql.sock" />
             <configuration_option name="mysqli.default_user" value="" />
             <configuration_option name="mysqli.max_links" value="-1" />
             <configuration_option name="mysqli.max_persistent" value="-1" />
@@ -739,38 +654,13 @@
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
             <configuration_option name="pdo_mysql.default_socket" value="/tmp/mysql.sock" />
-            <configuration_option name="pgsql.allow_persistent" value="1" />
-            <configuration_option name="pgsql.auto_reset_persistent" value="" />
-            <configuration_option name="pgsql.ignore_notice" value="0" />
-            <configuration_option name="pgsql.log_notice" value="0" />
-            <configuration_option name="pgsql.max_links" value="-1" />
-            <configuration_option name="pgsql.max_persistent" value="-1" />
-            <configuration_option name="phalcon.db.escape_identifiers" value="1" />
-            <configuration_option name="phalcon.db.force_casting" value="0" />
-            <configuration_option name="phalcon.orm.cast_on_hydrate" value="0" />
-            <configuration_option name="phalcon.orm.column_renaming" value="1" />
-            <configuration_option name="phalcon.orm.enable_implicit_joins" value="1" />
-            <configuration_option name="phalcon.orm.enable_literals" value="1" />
-            <configuration_option name="phalcon.orm.events" value="1" />
-            <configuration_option name="phalcon.orm.exception_on_failed_save" value="0" />
-            <configuration_option name="phalcon.orm.ignore_unknown_columns" value="0" />
-            <configuration_option name="phalcon.orm.late_state_binding" value="0" />
-            <configuration_option name="phalcon.orm.not_null_validations" value="1" />
-            <configuration_option name="phalcon.orm.virtual_foreign_keys" value="1" />
             <configuration_option name="phar.cache_list" value="" />
             <configuration_option name="phar.readonly" value="1" />
             <configuration_option name="phar.require_hash" value="1" />
             <configuration_option name="post_max_size" value="8M" />
             <configuration_option name="precision" value="14" />
-            <configuration_option name="raphf.persistent_handle.limit" value="-1" />
             <configuration_option name="realpath_cache_size" value="16K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
-            <configuration_option name="redis.arrays.autorehash" value="" />
-            <configuration_option name="redis.arrays.functions" value="" />
-            <configuration_option name="redis.arrays.hosts" value="" />
-            <configuration_option name="redis.arrays.index" value="" />
-            <configuration_option name="redis.arrays.names" value="" />
-            <configuration_option name="redis.arrays.previous" value="" />
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="1" />
             <configuration_option name="report_zend_debug" value="0" />
@@ -808,7 +698,7 @@
             <configuration_option name="session.use_only_cookies" value="1" />
             <configuration_option name="session.use_strict_mode" value="0" />
             <configuration_option name="session.use_trans_sid" value="0" />
-            <configuration_option name="short_open_tag" value="" />
+            <configuration_option name="short_open_tag" value="1" />
             <configuration_option name="smtp_port" value="25" />
             <configuration_option name="soap.wsdl_cache" value="1" />
             <configuration_option name="soap.wsdl_cache_dir" value="/tmp" />
@@ -817,305 +707,63 @@
             <configuration_option name="soap.wsdl_cache_ttl" value="86400" />
             <configuration_option name="sql.safe_mode" value="" />
             <configuration_option name="sqlite3.extension_dir" value="" />
-            <configuration_option name="stomp.default_broker" value="tcp://localhost:61613" />
-            <configuration_option name="stomp.default_connection_timeout_sec" value="2" />
-            <configuration_option name="stomp.default_connection_timeout_usec" value="0" />
-            <configuration_option name="stomp.default_password" value="" />
-            <configuration_option name="stomp.default_read_timeout_sec" value="2" />
-            <configuration_option name="stomp.default_read_timeout_usec" value="0" />
-            <configuration_option name="stomp.default_username" value="" />
-            <configuration_option name="suhosin.apc_bug_workaround" value="0" />
-            <configuration_option name="suhosin.cookie.checkraddr" value="0" />
-            <configuration_option name="suhosin.cookie.cryptdocroot" value="1" />
-            <configuration_option name="suhosin.cookie.cryptkey" value="" />
-            <configuration_option name="suhosin.cookie.cryptlist" value="" />
-            <configuration_option name="suhosin.cookie.cryptraddr" value="0" />
-            <configuration_option name="suhosin.cookie.cryptua" value="1" />
-            <configuration_option name="suhosin.cookie.disallow_nul" value="1" />
-            <configuration_option name="suhosin.cookie.disallow_ws" value="1" />
-            <configuration_option name="suhosin.cookie.encrypt" value="0" />
-            <configuration_option name="suhosin.cookie.max_array_depth" value="50" />
-            <configuration_option name="suhosin.cookie.max_array_index_length" value="64" />
-            <configuration_option name="suhosin.cookie.max_name_length" value="64" />
-            <configuration_option name="suhosin.cookie.max_totalname_length" value="256" />
-            <configuration_option name="suhosin.cookie.max_value_length" value="10000" />
-            <configuration_option name="suhosin.cookie.max_vars" value="100" />
-            <configuration_option name="suhosin.cookie.plainlist" value="" />
-            <configuration_option name="suhosin.coredump" value="0" />
-            <configuration_option name="suhosin.disable.display_errors" value="0" />
-            <configuration_option name="suhosin.executor.allow_symlink" value="0" />
-            <configuration_option name="suhosin.executor.disable_emodifier" value="0" />
-            <configuration_option name="suhosin.executor.disable_eval" value="0" />
-            <configuration_option name="suhosin.executor.eval.blacklist" value="" />
-            <configuration_option name="suhosin.executor.eval.whitelist" value="" />
-            <configuration_option name="suhosin.executor.func.blacklist" value="" />
-            <configuration_option name="suhosin.executor.func.whitelist" value="" />
-            <configuration_option name="suhosin.executor.include.allow_writable_files" value="1" />
-            <configuration_option name="suhosin.executor.include.blacklist" value="" />
-            <configuration_option name="suhosin.executor.include.max_traversal" value="0" />
-            <configuration_option name="suhosin.executor.include.whitelist" value="" />
-            <configuration_option name="suhosin.executor.max_depth" value="750" />
-            <configuration_option name="suhosin.filter.action" value="" />
-            <configuration_option name="suhosin.get.disallow_nul" value="1" />
-            <configuration_option name="suhosin.get.disallow_ws" value="0" />
-            <configuration_option name="suhosin.get.max_array_depth" value="50" />
-            <configuration_option name="suhosin.get.max_array_index_length" value="64" />
-            <configuration_option name="suhosin.get.max_name_length" value="64" />
-            <configuration_option name="suhosin.get.max_totalname_length" value="256" />
-            <configuration_option name="suhosin.get.max_value_length" value="512" />
-            <configuration_option name="suhosin.get.max_vars" value="100" />
-            <configuration_option name="suhosin.log.file" value="0" />
-            <configuration_option name="suhosin.log.file.name" value="" />
-            <configuration_option name="suhosin.log.file.time" value="1" />
-            <configuration_option name="suhosin.log.phpscript" value="0" />
-            <configuration_option name="suhosin.log.phpscript.is_safe" value="0" />
-            <configuration_option name="suhosin.log.phpscript.name" value="" />
-            <configuration_option name="suhosin.log.sapi" value="0" />
-            <configuration_option name="suhosin.log.script" value="0" />
-            <configuration_option name="suhosin.log.script.name" value="" />
-            <configuration_option name="suhosin.log.stdout" value="0" />
-            <configuration_option name="suhosin.log.syslog" value="" />
-            <configuration_option name="suhosin.log.syslog.facility" value="" />
-            <configuration_option name="suhosin.log.syslog.priority" value="" />
-            <configuration_option name="suhosin.log.use-x-forwarded-for" value="0" />
-            <configuration_option name="suhosin.mail.protect" value="0" />
-            <configuration_option name="suhosin.memory_limit" value="0" />
-            <configuration_option name="suhosin.mt_srand.ignore" value="1" />
-            <configuration_option name="suhosin.multiheader" value="0" />
-            <configuration_option name="suhosin.perdir" value="0" />
-            <configuration_option name="suhosin.post.disallow_nul" value="1" />
-            <configuration_option name="suhosin.post.disallow_ws" value="0" />
-            <configuration_option name="suhosin.post.max_array_depth" value="50" />
-            <configuration_option name="suhosin.post.max_array_index_length" value="64" />
-            <configuration_option name="suhosin.post.max_name_length" value="64" />
-            <configuration_option name="suhosin.post.max_totalname_length" value="256" />
-            <configuration_option name="suhosin.post.max_value_length" value="1000000" />
-            <configuration_option name="suhosin.post.max_vars" value="1000" />
-            <configuration_option name="suhosin.protectkey" value="1" />
-            <configuration_option name="suhosin.rand.reseed_every_request" value="0" />
-            <configuration_option name="suhosin.rand.seedingkey" value="" />
-            <configuration_option name="suhosin.request.array_index_blacklist" value="'&quot;+&lt;&gt;;()" />
-            <configuration_option name="suhosin.request.array_index_whitelist" value="" />
-            <configuration_option name="suhosin.request.disallow_nul" value="1" />
-            <configuration_option name="suhosin.request.disallow_ws" value="0" />
-            <configuration_option name="suhosin.request.max_array_depth" value="50" />
-            <configuration_option name="suhosin.request.max_array_index_length" value="64" />
-            <configuration_option name="suhosin.request.max_totalname_length" value="256" />
-            <configuration_option name="suhosin.request.max_value_length" value="1000000" />
-            <configuration_option name="suhosin.request.max_varname_length" value="64" />
-            <configuration_option name="suhosin.request.max_vars" value="1000" />
-            <configuration_option name="suhosin.server.encode" value="1" />
-            <configuration_option name="suhosin.server.strip" value="1" />
-            <configuration_option name="suhosin.session.checkraddr" value="0" />
-            <configuration_option name="suhosin.session.cryptdocroot" value="1" />
-            <configuration_option name="suhosin.session.cryptkey" value="" />
-            <configuration_option name="suhosin.session.cryptraddr" value="0" />
-            <configuration_option name="suhosin.session.cryptua" value="0" />
-            <configuration_option name="suhosin.session.encrypt" value="1" />
-            <configuration_option name="suhosin.session.max_id_length" value="128" />
-            <configuration_option name="suhosin.simulation" value="0" />
-            <configuration_option name="suhosin.sql.bailout_on_error" value="0" />
-            <configuration_option name="suhosin.sql.comment" value="0" />
-            <configuration_option name="suhosin.sql.multiselect" value="0" />
-            <configuration_option name="suhosin.sql.opencomment" value="0" />
-            <configuration_option name="suhosin.sql.union" value="0" />
-            <configuration_option name="suhosin.sql.user_match" value="" />
-            <configuration_option name="suhosin.sql.user_postfix" value="" />
-            <configuration_option name="suhosin.sql.user_prefix" value="" />
-            <configuration_option name="suhosin.srand.ignore" value="1" />
-            <configuration_option name="suhosin.stealth" value="1" />
-            <configuration_option name="suhosin.upload.disallow_binary" value="0" />
-            <configuration_option name="suhosin.upload.disallow_elf" value="1" />
-            <configuration_option name="suhosin.upload.max_newlines" value="100" />
-            <configuration_option name="suhosin.upload.max_uploads" value="25" />
-            <configuration_option name="suhosin.upload.remove_binary" value="0" />
-            <configuration_option name="suhosin.upload.verification_script" value="" />
             <configuration_option name="sys_temp_dir" value="" />
-            <configuration_option name="tidy.clean_output" value="" />
-            <configuration_option name="tidy.default_config" value="" />
             <configuration_option name="track_errors" value="1" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
             <configuration_option name="upload_tmp_dir" value="" />
-            <configuration_option name="uploadprogress.file.contents_template" value="/var/tmp//upload_contents_%s" />
-            <configuration_option name="uploadprogress.file.filename_template" value="/var/tmp//upt_%s.txt" />
-            <configuration_option name="uploadprogress.get_contents" value="0" />
             <configuration_option name="url_rewriter.tags" value="a=href,area=href,frame=src,input=src,form=fakeentry" />
             <configuration_option name="user_agent" value="" />
             <configuration_option name="user_dir" value="" />
             <configuration_option name="user_ini.cache_ttl" value="300" />
             <configuration_option name="user_ini.filename" value=".user.ini" />
             <configuration_option name="variables_order" value="GPCS" />
-            <configuration_option name="vld.active" value="0" />
-            <configuration_option name="vld.col_sep" value=" " />
-            <configuration_option name="vld.dump_paths" value="1" />
-            <configuration_option name="vld.execute" value="1" />
-            <configuration_option name="vld.format" value="0" />
-            <configuration_option name="vld.save_dir" value="/tmp" />
-            <configuration_option name="vld.save_paths" value="0" />
-            <configuration_option name="vld.skip_append" value="0" />
-            <configuration_option name="vld.skip_prepend" value="0" />
-            <configuration_option name="vld.verbosity" value="1" />
-            <configuration_option name="xdebug.auto_trace" value="0" />
-            <configuration_option name="xdebug.cli_color" value="0" />
-            <configuration_option name="xdebug.collect_assignments" value="0" />
-            <configuration_option name="xdebug.collect_includes" value="1" />
-            <configuration_option name="xdebug.collect_params" value="0" />
-            <configuration_option name="xdebug.collect_return" value="0" />
-            <configuration_option name="xdebug.collect_vars" value="0" />
-            <configuration_option name="xdebug.coverage_enable" value="1" />
-            <configuration_option name="xdebug.default_enable" value="1" />
-            <configuration_option name="xdebug.dump.COOKIE" value="" />
-            <configuration_option name="xdebug.dump.ENV" value="" />
-            <configuration_option name="xdebug.dump.FILES" value="" />
-            <configuration_option name="xdebug.dump.GET" value="" />
-            <configuration_option name="xdebug.dump.POST" value="" />
-            <configuration_option name="xdebug.dump.REQUEST" value="" />
-            <configuration_option name="xdebug.dump.SERVER" value="" />
-            <configuration_option name="xdebug.dump.SESSION" value="" />
-            <configuration_option name="xdebug.dump_globals" value="1" />
-            <configuration_option name="xdebug.dump_once" value="1" />
-            <configuration_option name="xdebug.dump_undefined" value="0" />
-            <configuration_option name="xdebug.extended_info" value="1" />
-            <configuration_option name="xdebug.file_link_format" value="" />
-            <configuration_option name="xdebug.force_display_errors" value="0" />
-            <configuration_option name="xdebug.force_error_reporting" value="0" />
-            <configuration_option name="xdebug.halt_level" value="0" />
-            <configuration_option name="xdebug.idekey" value="" />
-            <configuration_option name="xdebug.max_nesting_level" value="256" />
-            <configuration_option name="xdebug.max_stack_frames" value="-1" />
-            <configuration_option name="xdebug.overload_var_dump" value="2" />
-            <configuration_option name="xdebug.profiler_aggregate" value="0" />
-            <configuration_option name="xdebug.profiler_append" value="0" />
-            <configuration_option name="xdebug.profiler_enable" value="0" />
-            <configuration_option name="xdebug.profiler_enable_trigger" value="0" />
-            <configuration_option name="xdebug.profiler_enable_trigger_value" value="" />
-            <configuration_option name="xdebug.profiler_output_dir" value="/var/tmp/" />
-            <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
-            <configuration_option name="xdebug.remote_addr_header" value="" />
-            <configuration_option name="xdebug.remote_autostart" value="0" />
-            <configuration_option name="xdebug.remote_connect_back" value="0" />
-            <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
-            <configuration_option name="xdebug.remote_enable" value="0" />
-            <configuration_option name="xdebug.remote_handler" value="dbgp" />
-            <configuration_option name="xdebug.remote_host" value="localhost" />
-            <configuration_option name="xdebug.remote_log" value="" />
-            <configuration_option name="xdebug.remote_mode" value="req" />
-            <configuration_option name="xdebug.remote_port" value="9000" />
-            <configuration_option name="xdebug.scream" value="0" />
-            <configuration_option name="xdebug.show_error_trace" value="0" />
-            <configuration_option name="xdebug.show_exception_trace" value="0" />
-            <configuration_option name="xdebug.show_local_vars" value="0" />
-            <configuration_option name="xdebug.show_mem_delta" value="0" />
-            <configuration_option name="xdebug.trace_enable_trigger" value="0" />
-            <configuration_option name="xdebug.trace_enable_trigger_value" value="" />
-            <configuration_option name="xdebug.trace_format" value="0" />
-            <configuration_option name="xdebug.trace_options" value="0" />
-            <configuration_option name="xdebug.trace_output_dir" value="/var/tmp/" />
-            <configuration_option name="xdebug.trace_output_name" value="trace.%c" />
-            <configuration_option name="xdebug.var_display_max_children" value="128" />
-            <configuration_option name="xdebug.var_display_max_data" value="512" />
-            <configuration_option name="xdebug.var_display_max_depth" value="3" />
-            <configuration_option name="xhprof.output_dir" value="" />
             <configuration_option name="xmlrpc_error_number" value="0" />
             <configuration_option name="xmlrpc_errors" value="0" />
             <configuration_option name="xsl.security_prefs" value="44" />
-            <configuration_option name="yaml.decode_binary" value="0" />
-            <configuration_option name="yaml.decode_php" value="1" />
-            <configuration_option name="yaml.decode_timestamp" value="0" />
-            <configuration_option name="yaml.output_canonical" value="0" />
-            <configuration_option name="yaml.output_indent" value="2" />
-            <configuration_option name="yaml.output_width" value="80" />
-            <configuration_option name="yaz.keepalive" value="120" />
-            <configuration_option name="yaz.log_file" value="" />
-            <configuration_option name="yaz.log_mask" value="" />
-            <configuration_option name="yaz.max_links" value="100" />
             <configuration_option name="zend.detect_unicode" value="1" />
             <configuration_option name="zend.enable_gc" value="1" />
             <configuration_option name="zend.multibyte" value="0" />
             <configuration_option name="zend.script_encoding" value="" />
+            <configuration_option name="zend.signal_check" value="0" />
             <configuration_option name="zlib.output_compression" value="" />
             <configuration_option name="zlib.output_compression_level" value="-1" />
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.4.0">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
-            <extension name="OAuth" />
-            <extension name="PDFlib" />
             <extension name="PDO" />
             <extension name="PDO_ODBC" />
             <extension name="Phar" />
             <extension name="Reflection" />
             <extension name="SPL" />
-            <extension name="SPL_Types" />
             <extension name="SimpleXML" />
-            <extension name="Stomp" />
-            <extension name="amf" />
-            <extension name="amqp" />
-            <extension name="apc" />
-            <extension name="apcu" />
-            <extension name="bbcode" />
             <extension name="bcmath" />
-            <extension name="big_int" />
             <extension name="bz2" />
-            <extension name="cairo" />
             <extension name="calendar" />
             <extension name="ctype" />
             <extension name="curl" />
             <extension name="date" />
             <extension name="dba" />
-            <extension name="dbase" />
-            <extension name="discount" />
             <extension name="dom" />
-            <extension name="enchant" />
             <extension name="ereg" />
-            <extension name="esmtp" />
-            <extension name="event" />
-            <extension name="excel" />
             <extension name="exif" />
             <extension name="fileinfo" />
             <extension name="filter" />
-            <extension name="freeimage" />
             <extension name="ftp" />
             <extension name="gd" />
-            <extension name="gdchart" />
-            <extension name="gearman" />
-            <extension name="geoip" />
             <extension name="gettext" />
-            <extension name="gmagick" />
-            <extension name="gmp" />
             <extension name="hash" />
-            <extension name="html_parse" />
-            <extension name="htscanner" />
-            <extension name="http" />
             <extension name="iconv" />
-            <extension name="igbinary" />
-            <extension name="imagick" />
             <extension name="imap" />
-            <extension name="imlib2" />
             <extension name="intl" />
-            <extension name="jsmin" />
             <extension name="json" />
-            <extension name="judy" />
             <extension name="ldap" />
-            <extension name="libev" />
-            <extension name="libevent" />
             <extension name="libxml" />
-            <extension name="lzf" />
-            <extension name="magickwand" />
-            <extension name="mailparse" />
             <extension name="mbstring" />
             <extension name="mcrypt" />
-            <extension name="memcached" />
             <extension name="mhash" />
-            <extension name="ming" />
-            <extension name="mongo" />
-            <extension name="mssql" />
             <extension name="mysql" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
@@ -1123,58 +771,26 @@
             <extension name="openssl" />
             <extension name="pcntl" />
             <extension name="pcre" />
-            <extension name="pdo_dblib" />
             <extension name="pdo_mysql" />
-            <extension name="pdo_pgsql" />
             <extension name="pdo_sqlite" />
-            <extension name="peb" />
-            <extension name="pgsql" />
-            <extension name="phalcon" />
-            <extension name="pop3" />
             <extension name="posix" />
-            <extension name="propro" />
-            <extension name="pspell" />
-            <extension name="raphf" />
-            <extension name="rar" />
             <extension name="readline" />
-            <extension name="redis" />
-            <extension name="rrd" />
-            <extension name="scrypt" />
             <extension name="session" />
             <extension name="shmop" />
-            <extension name="snmp" />
             <extension name="soap" />
             <extension name="sockets" />
-            <extension name="solr" />
-            <extension name="sphinx" />
             <extension name="sqlite3" />
-            <extension name="ssh2" />
             <extension name="standard" />
-            <extension name="suhosin" />
-            <extension name="svm" />
-            <extension name="svn" />
-            <extension name="syck" />
             <extension name="sysvmsg" />
             <extension name="sysvsem" />
             <extension name="sysvshm" />
-            <extension name="tidy" />
-            <extension name="timezonedb" />
             <extension name="tokenizer" />
-            <extension name="twig" />
-            <extension name="uploadprogress" />
-            <extension name="uuid" />
-            <extension name="vld" />
             <extension name="wddx" />
-            <extension name="xdebug" />
-            <extension name="xhprof" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
             <extension name="xmlwriter" />
-            <extension name="xrange" />
             <extension name="xsl" />
-            <extension name="yaml" />
-            <extension name="yaz" />
             <extension name="zip" />
             <extension name="zlib" />
           </loaded_extensions>
