@@ -21,6 +21,9 @@
       <mapping ext="private" type="PLAIN_TEXT" />
       <mapping ext="com" type="PLAIN_TEXT" />
       <mapping ext="lock" type="PLAIN_TEXT" />
+      <mapping ext="ento_local" type="PLAIN_TEXT" />
+      <mapping ext="ento_staging" type="PLAIN_TEXT" />
+      <mapping ext="ento_production" type="PLAIN_TEXT" />
       <mapping pattern="*.xml.dist" type="XML" />
     </extensionMap>
   </component>
