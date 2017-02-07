@@ -10,7 +10,7 @@
   <component name="MultiLanguageDuplocatorSettings">
     <object language="PHP">
       <option name="DISTINGUISH_FUNCTIONS" value="false" />
-      <option name="DISTINGUISH_LITERALS" value="false" />
+      <option name="LOWER_BOUND" value="11" />
     </object>
   </component>
 </application>
