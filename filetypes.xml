@@ -8,6 +8,7 @@
       <mapping pattern="apache_workers_cloudwatch" type="PLAIN_TEXT" />
       <mapping pattern="empty" type="PLAIN_TEXT" />
       <mapping pattern="newrelic_switch" type="PLAIN_TEXT" />
+      <mapping pattern=".empty" type="PLAIN_TEXT" />
       <mapping pattern="0hourly" type="PLAIN_TEXT" />
       <mapping pattern="master_key" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
