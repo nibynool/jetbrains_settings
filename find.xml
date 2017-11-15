@@ -7,5 +7,32 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>e</mask>
+      <mask>em</mask>
+      <mask>emp</mask>
+      <mask>empl</mask>
+      <mask>emplo</mask>
+      <mask>employ</mask>
+      <mask>employme</mask>
+      <mask>employment</mask>
+      <mask>employment_</mask>
+      <mask>employment_te</mask>
+      <mask>employment_te*</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.php</mask>
+    </recentFileMasks>
   </component>
 </application>
