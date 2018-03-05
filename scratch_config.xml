@@ -32,9 +32,10 @@
         <option value="scratch6.txt" />
         <option value="test.json" />
         <option value="temp.json" />
+        <option value="temp.xml" />
       </list>
     </option>
-    <option name="lastOpenedScratch" value="scratch.txt" />
+    <option name="lastOpenedScratch" value="temp.xml" />
     <option name="scratchesFolderPath" value="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </application>
