@@ -36,7 +36,7 @@
         <option value="temp1.xml" />
       </list>
     </option>
-    <option name="lastOpenedScratch" value="temp1.xml" />
+    <option name="lastOpenedScratch" value="scratch.txt" />
     <option name="scratchesFolderPath" value="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </application>
