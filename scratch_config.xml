@@ -34,9 +34,10 @@
         <option value="temp.json" />
         <option value="temp.xml" />
         <option value="temp1.xml" />
+        <option value="scratch7.sql" />
       </list>
     </option>
-    <option name="lastOpenedScratch" value="scratch.txt" />
+    <option name="lastOpenedScratch" value="scratch7.sql" />
     <option name="scratchesFolderPath" value="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </application>
